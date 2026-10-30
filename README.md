@@ -3,7 +3,7 @@
 Data Analytics ML Challenge 2026-2 · Universidad Central · Ingeniería de Sistemas
 Profesor: Elias Buitrago Bolivar
 
-**Estudiante ID:** 01 (semilla 1001)
+**Estudiante ID:** 25 (semilla 1025)
 
 ## Caso
 
@@ -23,14 +23,14 @@ entrega real ocurre después de la fecha estimada.
 
 | Métrica | Valor |
 |---|---|
-| Accuracy | 0.669 |
-| Precision | 0.121 |
-| Recall | 0.623 |
-| F1 | 0.203 |
-| ROC-AUC | 0.707 |
-| Average Precision | 0.160 |
-| Costo de errores | R$ 17.538 |
-| MAE regresión (Ridge) | 5.07 días |
+| Accuracy | 0.657 |
+| Precision | 0.119 |
+| Recall | 0.632 |
+| F1 | 0.200 |
+| ROC-AUC | 0.699 |
+| Average Precision | 0.147 |
+| Costo de errores | R$ 17.945 |
+| MAE regresión (Ridge) | 5.16 días |
 
 La interpretación de negocio y la propuesta de mejora para la semana 13 están en la sección 6 del cuaderno.
 
@@ -40,16 +40,16 @@ La interpretación de negocio y la propuesta de mejora para la semana 13 están 
 notebooks/
   S12_ML_Challenge.ipynb        # cuaderno ejecutado con actividades e interpretación
 reports/
-  S12_resultados_ID_01.json     # reporte generado por el cuaderno
+  S12_resultados_ID_25.json     # reporte generado por el cuaderno
 README.md
 ```
 
 ## Cómo reproducir
 
 1. Abrir `notebooks/S12_ML_Challenge.ipynb` en Google Colab o en Jupyter.
-2. Verificar que `ID_ESTUDIANTE = 1`.
+2. Verificar que `ID_ESTUDIANTE = 25`.
 3. Reiniciar y ejecutar todas las celdas en orden. Los CSV de Olist se leen directamente desde una copia pública con revisión fija (`fa0cc6d1aff713d3c8b9a1e633b56889881848bf`); no se incluyen en el repositorio.
-4. El cuaderno escribe el reporte en `reports/S12_resultados_ID_01.json`.
+4. El cuaderno escribe el reporte en `reports/S12_resultados_ID_25.json`.
 
 Dependencias: Python 3, pandas, numpy y scikit-learn.
 
